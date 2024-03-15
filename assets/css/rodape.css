@@ -1,0 +1,14 @@
+.rodape{
+    background-color: #bfbfbf;
+    color: #fdfdfd;
+
+    text-align: right;
+    padding: 1.5625rem 5rem;
+    text-transform: lowercase;
+}
+
+@media(max-width: 768px){
+    .rodape{
+        text-align: center;
+    }
+}

@@ -1,0 +1,13 @@
+.pessoas{
+    display: flex;
+    padding-top: 3rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+@media(max-width: 792px){
+    .pessoas{
+        gap: 50px;
+    }
+}
